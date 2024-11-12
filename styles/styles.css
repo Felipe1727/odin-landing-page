@@ -8,20 +8,24 @@ html, * {
 }
 
 button {
-    border-radius: 3px;
+    border-radius: 8px;
     border: none;
-    padding: 8px 16px;
-    background-color: #3a3a3d;
+    padding: 8px 22px;
+    background-color: #3882f6;
     color: #f4f4f6;
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 .hero, .footer {
-    background-color: #7f8086;
+    background-color: #1f2937;
     color: #f9faf8;
 }
 
-.hero {
+h2 {
+    font-size: 24px;
+}
+
+.hero, .info {
     padding: 0 14vw;
 }
 
@@ -35,13 +39,12 @@ button {
     width: 50px;
     min-width: none;
     flex: 1 1 auto;
-    padding-right: 10px;
 }
 .content h1 {
-    font-size: 3em;
+    font-size: 48px;
 }
 .content p {
-    
+    font-size: 18px;
     color: #e5e7eb;
     
 }
@@ -72,4 +75,20 @@ button {
 a {
     text-decoration:none;
     color: #e5e7eb;
+}
+
+.info {
+    background-color: #ffffff;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoText {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
