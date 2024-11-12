@@ -19,7 +19,7 @@ button {
     border: none;
 }
 
-.hero, .footer {
+.hero, footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -139,13 +139,13 @@ a {
 }
 
 .action {
-    height: 50vh;
+    height: 45vh;
     display: flex;
 }
 
 .action .container {
     display: flex;
-    height: 25vh;
+    height: 20vh;
     width: 100%;
     padding: 0 6vw;
     background-color: #3882f6;
@@ -170,4 +170,12 @@ a {
     border-color: #ffffff;
     border-width: 2px;
     border-style: ridge;
+}
+
+footer {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
