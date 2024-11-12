@@ -9,11 +9,14 @@ html, * {
 
 button {
     border-radius: 8px;
-    border: none;
     padding: 8px 22px;
     background-color: #3882f6;
     color: #f4f4f6;
     margin: 10px 0;
+}
+
+.noborder {
+    border: none;
 }
 
 .hero, .footer {
@@ -25,7 +28,7 @@ h2 {
     font-size: 24px;
 }
 
-.hero {
+.hero, .action {
     padding: 0 14vw;
 }
 
@@ -127,10 +130,44 @@ a {
     color: #1f2937;
     display: flex;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
 }
 .quote strong {
     font-size: 24px;
     font-style: normal;
     align-self:self-end;
+}
+
+.action {
+    height: 50vh;
+    display: flex;
+}
+
+.action .container {
+    display: flex;
+    height: 25vh;
+    width: 100%;
+    padding: 0 6vw;
+    background-color: #3882f6;
+    border-radius: 16px;
+    align-self: center;
+}
+
+.action .container .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.action .container .content strong {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.action .container .content p {
+    font-size: 14px;
+}
+.action .container button {
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: ridge;
 }
